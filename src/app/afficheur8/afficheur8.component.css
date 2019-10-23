@@ -1,0 +1,64 @@
+.container
+{
+    text-align: center;
+}
+.titre
+{
+    font-family: Consolas;
+    font-size: 20px;
+    margin-top:40px;
+    margin-Bottom:40px;
+    margin-left:auto;
+    margin-right:auto;
+    padding: 20px;
+    width: 60%;
+    background-color: beige;
+    border:3px solid gray;
+    border-radius:15px;
+    color:gray;
+}
+.afficheur
+{    
+    margin-top:40px;
+    margin-left:auto;
+    margin-right:auto;
+    height: 500px;
+    width: 500px;
+    background-color: beige;
+    border:3px solid gray;
+    border-radius:15px;
+}
+.ligne
+{
+    width: 500px;
+    display:flex;
+    float: left;
+}
+.pixel
+{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border:1px solid gray;
+    cursor: pointer;
+    border-radius: 25px;
+    margin:5px;
+}
+.pixelB
+{
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    border:1px solid gray;
+    cursor: pointer;
+    border-radius: 25px;
+    margin:5px;
+}
+.result
+{
+    margin-top: 15px;
+}
+.bin
+{
+    margin-top: 15px;
+}

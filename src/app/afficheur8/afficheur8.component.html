@@ -1,0 +1,102 @@
+<div class="container">
+ <div class="titre">
+    Matrix 8x8  
+ </div>
+    <div class="afficheur">
+        <span class="ligne">
+            <div id="1" class="pixel" (click)="ChangeColor(1)"></div>
+            <div id="2" class="pixel" (click)="ChangeColor(2)"></div>
+            <div id="3" class="pixel" (click)="ChangeColor(3)"></div>
+            <div id="4" class="pixel" (click)="ChangeColor(4)"></div>
+            <div id="5" class="pixel" (click)="ChangeColor(5)"></div>
+            <div id="6" class="pixel" (click)="ChangeColor(6)"></div>
+            <div id="7" class="pixel" (click)="ChangeColor(7)"></div>
+            <div id="8" class="pixel" (click)="ChangeColor(8)"></div>
+        </span> 
+        <span class="ligne">
+            <div id="9" class="pixel" (click)="ChangeColor(9)"></div>
+            <div id="10" class="pixel" (click)="ChangeColor(10)"></div>
+            <div id="11" class="pixel" (click)="ChangeColor(11)"></div>
+            <div id="12" class="pixel" (click)="ChangeColor(12)"></div>
+            <div id="13" class="pixel" (click)="ChangeColor(13)"></div>
+            <div id="14" class="pixel" (click)="ChangeColor(14)"></div>
+            <div id="15" class="pixel" (click)="ChangeColor(15)"></div>
+            <div id="16" class="pixel" (click)="ChangeColor(16)"></div>         
+        </span>
+        <span class="ligne">
+            <div id="17" class="pixel" (click)="ChangeColor(17)"></div>
+            <div id="18" class="pixel" (click)="ChangeColor(18)"></div>
+            <div id="19" class="pixel" (click)="ChangeColor(19)"></div>
+            <div id="20" class="pixel" (click)="ChangeColor(20)"></div>
+            <div id="21" class="pixel" (click)="ChangeColor(21)"></div>
+            <div id="22" class="pixel" (click)="ChangeColor(22)"></div>
+            <div id="23" class="pixel" (click)="ChangeColor(23)"></div>
+            <div id="24" class="pixel" (click)="ChangeColor(24)"></div>         
+        </span>    
+        <span class="ligne">
+            <div id="25" class="pixel" (click)="ChangeColor(25)"></div>
+            <div id="26" class="pixel" (click)="ChangeColor(26)"></div>
+            <div id="27" class="pixel" (click)="ChangeColor(27)"></div>
+            <div id="28" class="pixel" (click)="ChangeColor(28)"></div>
+            <div id="29" class="pixel" (click)="ChangeColor(29)"></div>
+            <div id="30" class="pixel" (click)="ChangeColor(30)"></div>
+            <div id="31" class="pixel" (click)="ChangeColor(31)"></div>
+            <div id="32" class="pixel" (click)="ChangeColor(32)"></div>         
+        </span>
+        <span class="ligne">
+            <div id="33" class="pixel" (click)="ChangeColor(33)"></div>
+            <div id="34" class="pixel" (click)="ChangeColor(34)"></div>
+            <div id="35" class="pixel" (click)="ChangeColor(35)"></div>
+            <div id="36" class="pixel" (click)="ChangeColor(36)"></div>
+            <div id="37" class="pixel" (click)="ChangeColor(37)"></div>
+            <div id="38" class="pixel" (click)="ChangeColor(38)"></div>
+            <div id="39" class="pixel" (click)="ChangeColor(39)"></div>
+            <div id="40" class="pixel" (click)="ChangeColor(40)"></div>
+        </span> 
+        <span class="ligne">
+            <div id="41" class="pixel" (click)="ChangeColor(41)"></div>
+            <div id="42" class="pixel" (click)="ChangeColor(42)"></div>
+            <div id="43" class="pixel" (click)="ChangeColor(43)"></div>
+            <div id="44" class="pixel" (click)="ChangeColor(44)"></div>
+            <div id="45" class="pixel" (click)="ChangeColor(45)"></div>
+            <div id="46" class="pixel" (click)="ChangeColor(46)"></div>
+            <div id="47" class="pixel" (click)="ChangeColor(47)"></div>
+            <div id="48" class="pixel" (click)="ChangeColor(48)"></div>
+                     
+        </span>
+        <span class="ligne">
+            <div id="49" class="pixel" (click)="ChangeColor(49)"></div>
+            <div id="50" class="pixel" (click)="ChangeColor(50)"></div>
+            <div id="51" class="pixel" (click)="ChangeColor(51)"></div>
+            <div id="52" class="pixel" (click)="ChangeColor(52)"></div>
+            <div id="53" class="pixel" (click)="ChangeColor(53)"></div>
+            <div id="54" class="pixel" (click)="ChangeColor(54)"></div>
+            <div id="55" class="pixel" (click)="ChangeColor(55)"></div>
+            <div id="56" class="pixel" (click)="ChangeColor(56)"></div>        
+        </span>    
+        <span class="ligne">
+            <div id="57" class="pixel" (click)="ChangeColor(57)"></div>
+            <div id="58" class="pixel" (click)="ChangeColor(58)"></div>
+            <div id="59" class="pixel" (click)="ChangeColor(59)"></div>
+            <div id="60" class="pixel" (click)="ChangeColor(60)"></div>
+            <div id="61" class="pixel" (click)="ChangeColor(61)"></div>
+            <div id="62" class="pixel" (click)="ChangeColor(62)"></div>
+            <div id="63" class="pixel" (click)="ChangeColor(63)"></div>
+            <div id="64" class="pixel" (click)="ChangeColor(64)"></div>         
+        </span>
+        </div> 
+        <div class="result">
+        <div>
+            <button (click)="AfficherResult()">Code Binaire</button>
+        </div>
+        <div class="bin">
+            {{result}}
+        </div>             
+              <!-- <div *ngFor="let r of {{result}}">
+                 <div *ngFor=(let i=0;i<8;i++)>
+                
+            </div> -->
+        </div>               
+        
+</div>
+
