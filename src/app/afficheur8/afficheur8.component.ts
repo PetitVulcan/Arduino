@@ -7,7 +7,7 @@ import { identifierModuleUrl } from '@angular/compiler';
   styleUrls: ['./afficheur8.component.css']
 })
 export class Afficheur8Component implements OnInit {
-  result:Array<any>;
+  result;
   
 
   constructor() {
@@ -17,11 +17,13 @@ export class Afficheur8Component implements OnInit {
    }
 
   ngOnInit() {
+    this.AfficherResult();
   }
 
   AfficherResult()
   {
     this.result = new Array<any>();
+    var resultTmp = new Array<any>();
     var idtmp;
     
     for(let i = 1 ; i < 65 ; i++)
@@ -29,14 +31,19 @@ export class Afficheur8Component implements OnInit {
       idtmp=i;
       if(document.getElementById(idtmp).className == "pixel")
       {
-        this.result.push(0);
+        resultTmp.push(0);
       }
       else
       {
-        this.result.push(1);        
+        resultTmp.push(1);        
       }
     }
+    for ( let i = 0 ; i < resultTmp.length ; i++ )
+    {
+      this.result+=resultTmp[i];        
+    }
     console.log(this.result);
+
     return this.result;
   }
   ChangeColor(id)
